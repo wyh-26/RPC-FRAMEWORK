@@ -1,0 +1,2 @@
+protostuff=wyh.rpc.serialize.impl.ProtostuffSerializeImpl
+kyro=wyh.rpc.serialize.impl.KyroSerializeImpl

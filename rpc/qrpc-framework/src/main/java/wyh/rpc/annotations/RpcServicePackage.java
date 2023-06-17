@@ -1,0 +1,17 @@
+package wyh.rpc.annotations;
+
+
+import org.springframework.context.annotation.Import;
+import wyh.rpc.annotationProcessor.CustomRegistrar;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE)
+@Import(CustomRegistrar.class)
+public @interface RpcServicePackage {
+    String[] basePackages();
+}

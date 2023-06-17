@@ -1,0 +1,2 @@
+zk=wyh.rpc.serviceManager.serviceRegistry.impl.ZkServiceRegistryImpl
+nacos=wyh.rpc.serviceManager.serviceRegistry.impl.NacosServiceRegistryImpl
